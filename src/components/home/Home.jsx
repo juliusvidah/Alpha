@@ -1,0 +1,36 @@
+import React from 'react'
+import './home.scss'
+import { cloudName, logo } from '../cloudImages/CloudImages'
+import { Image, Transformation } from 'cloudinary-react'
+import { Link } from 'react-router-dom'
+import LogIn from '../login/LogIn'
+
+const Home = () => {
+  return (
+    <div className='home'>
+      <div className="logo">
+      <Image className='logo1' cloudName={cloudName} publicId={logo.logo1}>
+   <Transformation crop="scale" width="200" angle="0" />
+ </Image>
+      </div>
+      <div className="coin">
+      <Image className='logo2' cloudName={cloudName} publicId={logo.logo2}>
+   <Transformation crop="scale" width="200" angle="0" />
+ </Image>
+      </div>
+      <div className="text1">
+        <h2>Forge your financial future </h2>
+        <h2>We will hammer out the details</h2>
+        <p>So you can spend more time doing the things you love!</p>
+      </div>
+      <span className='FAQ'>
+        <Link>Terms and Conditions</Link> | <Link>FAQs</Link> | <Link>Contact Us</Link>
+      </span>
+      <div>
+      <LogIn/>
+      </div>
+    </div>
+  )
+}
+
+export default Home
