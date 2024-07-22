@@ -8,7 +8,7 @@ import LogIn from '../login/LogIn'
 const Home = () => {
   return (
     <div className='home'>
-      <div className="logo">
+      <div className="mainlogo">
       <Image className='logo1' cloudName={cloudName} publicId={logo.logo1}>
    <Transformation crop="scale" width="200" angle="0" />
  </Image>
@@ -24,7 +24,7 @@ const Home = () => {
         <p>So you can spend more time doing the things you love!</p>
       </div>
       <span className='FAQ'>
-        <Link>Terms and Conditions</Link> | <Link>FAQs</Link> | <Link>Contact Us</Link>
+        <Link to='/Terms'>Terms and Conditions</Link> | <Link to='/Faq'>FAQs</Link> | <Link>Contact Us</Link>
       </span>
       <div>
       <LogIn/>

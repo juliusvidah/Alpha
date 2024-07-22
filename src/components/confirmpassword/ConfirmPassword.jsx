@@ -8,7 +8,7 @@ import LogIn from '../login/LogIn'
 const ConfirmPassword = () => {
   return (
     <div className='home'>
-      <div className="logo">
+      <div className="mainlogo">
       <Image className='logo1' cloudName={cloudName} publicId={logo.logo1}>
    <Transformation crop="scale" width="200" angle="0" />
  </Image>

@@ -3,3 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* Import Poppins font */
+@import "@fontsource/poppins"; /* Defaults to weight 400 */
+
+/* Alternatively, specify weight */
+@import "@fontsource/poppins/400.css";
+
+/* Alternatively, specify weight and style */
+@import "@fontsource/poppins/400-italic.css";
+
+/* Apply Poppins font to body */
+body {
+  font-family: "Poppins";
+}
