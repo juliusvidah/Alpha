@@ -40,9 +40,9 @@ const SignIn = () => {
         </div>
       </div>
       {action==='Login'?<div></div>:   <div className="btn1"><p>By continuing, you agree to </p><p>    Terms of Use and Privacy Policy.</p></div>}
-      {action==='Login'?<div></div>:   <div className="btn1"><Link to='/Dashboard'><button>SignUp <img className='img' src='https://res.cloudinary.com/degnky4ab/image/upload/v1721123398/yjonecziohiyleolcrx5.svg' alt="" /></button></Link></div>}
+      {action==='Login'?<div></div>:   <div className="btn1"><Link to='/Reset'><button>SignUp <img className='img' src='https://res.cloudinary.com/degnky4ab/image/upload/v1721123398/yjonecziohiyleolcrx5.svg' alt="" /></button></Link></div>}
       {action==='Sign up'?<div></div>:<div className="forgot-password">Forgotten password? <Link to='/resetpassword'><span>Click here</span></Link></div>}
-      {action==='Sign up'?<div></div>:<div className="btn2"><button>Login<img className='img' src='https://res.cloudinary.com/degnky4ab/image/upload/v1721123398/yjonecziohiyleolcrx5.svg' alt="" /></button></div>}
+      {action==='Sign up'?<div></div>:<div className="btn2"><Link to='/Transactions'><button>Login<img className='img' src='https://res.cloudinary.com/degnky4ab/image/upload/v1721123398/yjonecziohiyleolcrx5.svg' alt="" /></button></Link></div>}
     </div>
   )
 }

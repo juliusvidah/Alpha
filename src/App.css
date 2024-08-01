@@ -1,7 +1,7 @@
 /* src/App.css */
-.app {
+/* .app {
     display: flex;
-  }
+  } */
   
   .content {
     flex-grow: 1;
@@ -12,4 +12,70 @@
   
   .side-navbar.expanded + .content {
     margin-left: 250px; /* Adjust to match the expanded width of the sidebar */
+  }
+  .App {
+    display: flex;
+    font-family: Arial, sans-serif;
+  }
+  
+  .sidebar {
+    width: 200px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+  }
+  
+  .transaction-history {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .transaction-filter {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .transaction-filter label {
+    margin-right: 10px;
+  }
+  
+  .transaction-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .transaction-item {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .transaction-item span {
+    text-align: center;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  .page-item {
+    margin: 0 5px;
+  }
+  
+  .page-item.active .page-link {
+    font-weight: bold;
+  }
+  
+  .page-link {
+    cursor: pointer;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .page-link:hover {
+    text-decoration: underline;
   }

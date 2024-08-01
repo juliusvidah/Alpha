@@ -33,10 +33,10 @@ const ConfirmPassword = () => {
             <input type="password" placeholder='Enter New Password' />
         </div>
     <div className="input3">
-            <img className='img' src='https://www.iconpacks.net/icons/4/free-icon-password-11938.png' alt="" />
+            <img className='img' alt="" />
             <input type="password" placeholder='Confirm New Password' />
         </div>
-        <button className='btn2'>Change Password</button>
+       <Link to='/TransactionApp'> <button className='btn2'>Change Password</button></Link>
    </div>
       </div>
     </div>

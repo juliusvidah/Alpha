@@ -7,14 +7,14 @@ const Faq = () => {
         <h2>Frequently Asked Questions (FAQ)</h2>
 <h3>General Information</h3>
 <h4>Q: What services does SureBanker offer?</h4>
-<h4>A: FinManage offers a range of financial management services including budgeting tools, investment tracking, financial planning, and personalized financial advice.</h4>
+<h4>A: SureBanker offers a range of financial management services including budgeting tools, investment tracking, financial planning, and personalized financial advice.</h4>
 
 <h4>Q: How do I get started with SureBanker?
 </h4>
 <h4>A: To get started, simply sign up for an account on our website. Once registered, you can begin using our tools and services to manage your finances effectively.</h4>
 
 <h4>Q: Is SureBanker suitable for both individuals and businesses?</h4>
-<h4>A: Yes, FinManage offers tailored solutions for both individual users and businesses to help manage their financial needs.</h4>
+<h4>A: Yes, SureBank offers tailored solutions for both individual users and businesses to help manage their financial needs.</h4>
 
 <h3>Account and Security</h3>
 <h4>Q: How do I create an account?</h4>

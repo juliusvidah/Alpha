@@ -1,0 +1,453 @@
+.onboard {
+  background: #dff7e2;
+  width: 100vw;
+}
+.onboard1 {
+  position: relative;
+  width: 98vw;
+  gap: 0px;
+  border-radius: 0px 0px 0px 200px;
+  opacity: 0px;
+  margin-left: 4.5px;
+}
+.onboard2 {
+  position: absolute;
+  width: 15vw;
+  top: 6%;
+  left: 63%;
+}
+.onboard3 {
+  position: absolute;
+  width: 24vw;
+  top: 16%;
+  left: 55%;
+}
+.onboardbtn {
+  position: absolute;
+  width: Hug (219px) px;
+  height: Hug (33px) px;
+  top: 160px;
+  left: 60px;
+  gap: 16px;
+  opacity: 0px;
+  border-radius: 7px;
+  color: #f1eded;
+  background: #409e9f80;
+}
+.onboard-text h2 {
+  position: absolute;
+  font-family: League Spartan;
+  font-size: 85px;
+  font-weight: 900;
+  line-height: 80px;
+  text-align: left;
+  top: 30%;
+  margin-left: 3rem;
+  color: #f1eded;
+}
+.onboardsign {
+  position: absolute;
+  top: 81%;
+  font-size: larger;
+  margin-left: 10rem;
+  border-radius: 15px;
+  background-color: #ff9b05;
+  color: #f1eded;
+  padding: 4px;
+}
+.onboardsign:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+  color: #ff9b05;
+  background-color: #f1eded;
+}
+.onboardsign img {
+  width: 30px;
+  height: 22px;
+}
+.onboard-text p {
+  position: absolute;
+  font-family: League Spartan;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 29.44px;
+  margin-left: 4rem;
+  color: black;
+  top: 70%;
+}
+.onboard-text span {
+  color: #e2ff54;
+}
+.onboardlogo {
+  position: absolute;
+  top: 40px;
+  margin-left: 3rem;
+}
+.onboardlogo2 {
+  margin-left: 10px;
+}
+.onboardsub {
+  text-align: center;
+  margin-top: 2rem;
+}
+.onboardsub p {
+  font-family: League Spartan;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 72px;
+  color: #1d5152;
+}
+.onboardsub h3 {
+  font-family: League Spartan;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 58.88px;
+  color: #1d5152;
+}
+.onboardsub span {
+  font-family: League Spartan;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 58.88px;
+  color: #ff9b05;
+  margin-left: -3.5rem;
+}
+.onboardgrp {
+  margin-left: 4rem;
+  margin-top: 3rem;
+}
+.onboard4 {
+  position: relative;
+  width: 30vw;
+  padding: 1rem;
+}
+.onboard91 {
+  position: absolute;
+  top: 140%;
+  left: 11%;
+  width: 220px;
+}
+.onboard91-text {
+  position: absolute;
+  left: 12.5%;
+  top: 173%;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 55px;
+  letter-spacing: -0.05em;
+}
+.onboard92 {
+  position: absolute;
+  top: 140%;
+  left: 41.5%;
+  width: 220px;
+}
+.onboard92-text {
+  position: absolute;
+  left: 43%;
+  top: 173%;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 55px;
+  letter-spacing: -0.05em;
+  color: #f1eded;
+}
+.onboard93 {
+  position: absolute;
+  top: 140%;
+  left: 72%;
+  width: 220px;
+}
+.onboard93-text {
+  position: absolute;
+  left: 75%;
+  top: 173%;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 55px;
+  letter-spacing: -0.05em;
+  color: #f1eded;
+}
+.onboard5 {
+  width: 30vw;
+  padding: 1rem;
+}
+.onboard6 {
+  width: 30vw;
+  padding: 1rem;
+}
+.how {
+  font-family: League Spartan;
+  font-size: 57px;
+  font-weight: 500;
+  line-height: 58.88px;
+  color: #1d5152;
+  margin-left: 22rem;
+  margin-top: 2rem;
+}
+.how span {
+  font-family: League Spartan;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 58.88px;
+  color: #000000;
+}
+.onboardtips {
+  margin-left: 4rem;
+  position: absolute;
+  top: 244%;
+}
+.onboard10a {
+  position: relative;
+  width: 97vw;
+  height: 90vh;
+  margin-left: -5.4rem;
+  margin-top: 2rem;
+}
+.onboard10 {
+  width: 390px;
+  padding: 1rem;
+}
+.onboard10b {
+  width: 390px;
+  padding: 1rem;
+}
+.onboardsign2 {
+  font-size: larger;
+  margin-left: 36rem;
+  border-radius: 15px;
+  background-color: #ff9b05;
+  color: #f1eded;
+  padding: 4px;
+  margin-bottom: 4rem;
+  margin-top: 6rem;
+}
+.onboardsign2:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+  color: #ff9b05;
+  background-color: #f1eded;
+}
+.onboardsign2 img {
+  width: 30px;
+}
+.onboardbtn2 {
+  margin-left: 39rem;
+  margin-top: rem;
+  margin-bottom: 5px;
+}
+.onboard-about h3 {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 57.6px;
+  margin-left: 30rem;
+}
+.onboard-about span {
+  // text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 57.6px;
+  margin-left: -17rem;
+}
+.onboard11 {
+  margin-left: 5rem;
+}
+.onboard12 {
+  margin-left: 5rem;
+  margin-top: 2rem;
+}
+.onboard .onboard111 {
+  width: 38vw;
+}
+.onboard13 {
+  position: relative;
+  margin-top: 2rem;
+  width: 98.5vw;
+}
+.onboard14 {
+  position: absolute;
+  top: 472%;
+  left: 49%;
+}
+.onboardbtn3 {
+  position: absolute;
+  top: 472%;
+  padding: 6px;
+  border-radius: 8px;
+}
+.onboard14-text h3 {
+  position: absolute;
+  top: 482%;
+  font-family: League Spartan;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 57.6px;
+}
+.onboard14-text ul {
+  position: absolute;
+  top: 502%;
+  font-family: League Spartan;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  margin-left: 2rem;
+}
+.onboard14-text {
+  margin-left: 6rem;
+}
+.onboard15 {
+  position: relative;
+  width: 98.5vw;
+}
+.onboard16 {
+  position: absolute;
+  top: 588%;
+  left: 47%;
+  width: 400px;
+  gap: 0px;
+  opacity: 0px;
+}
+.onboard16-text {
+  position: absolute;
+  top: 570%;
+  margin-left: 5rem;
+  color: #f1eded;
+}
+.onboard16-text h2 {
+  font-family: League Spartan;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 58.88px;
+  text-align: center;
+}
+.span16 {
+  color: #ff9b05;
+}
+.onboard16-text p {
+  font-family: League Spartan;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 55px;
+  letter-spacing: -0.05em;
+  text-align: center;
+}
+.onboard16-text ul {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 55px;
+  letter-spacing: -0.05em;
+  margin-left: 7rem;
+}
+.onboard171 {
+  position: absolute;
+  top: 709%;
+}
+.onboard17 {
+  margin-left: 3rem;
+}
+.onboard18 {
+  margin-left: 3rem;
+}
+.onboard19 {
+  margin-left: 3rem;
+}
+.onboard17-text {
+  position: absolute;
+  top: 691%;
+  left: 31%;
+}
+.onboard17-text h3 {
+  text-align: center;
+  font-family: League Spartan;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 57.6px;
+  text-align: center;
+}
+.onboard17-text button {
+  width: Hug (135px) px;
+  height: Hug (33px) px;
+  padding: 6px 16px 6px 12px;
+  gap: 4px;
+  border-radius: 10px;
+  margin-left: 9rem;
+  cursor: pointer;
+}
+.seemore button {
+  width: 198px;
+  height: 55px;
+  gap: 0px;
+  border-radius: 12px 0px 0px 0px;
+  opacity: 0px;
+  background-color: #ff9b05;
+  margin-left: 34rem;
+  margin-top: 2rem;
+  color: #ffffff;
+  cursor: pointer;
+}
+.onboard20 {
+  position: relative;
+  margin-left: 9rem;
+  border-radius: 30px;
+  width: 1000px;
+  height: 460px;
+  gap: 0px;
+  opacity: 0px;
+}
+.onboard20-text {
+  position: absolute;
+  top: 797%;
+  margin-left: 16rem;
+}
+.onboard20-text h3 {
+  font-family: League Spartan;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 75px;
+  color: #ffffff;
+}
+.onboard20-text p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  color: #ffffff;
+}
+.btn20 button {
+  position: absolute;
+  width: 170px;
+  height: 60px;
+  top: 827%;
+  gap: 0px;
+  opacity: 0px;
+  background-color: #ff9b05;
+  color: #ffffff;
+  border-radius: 29px;
+  font-size: 27px;
+  margin-left: 15.7rem;
+  cursor: pointer;
+}
+.btn20 img {
+  width: 30px;
+  height: 26px;
+  top: 340px;
+  left: 191px;
+  gap: 0px;
+  opacity: 0px;
+}
+.onboardsign20:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+  color: #ff9b05;
+  background-color: #f1eded;
+}
+.onboard21 {
+  width: Hug (708px) px;
+  height: Hug (157px) px;
+  top: 7015px;
+  margin-left: 9rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
